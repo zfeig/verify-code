@@ -1,0 +1,39 @@
+{
+  "name": "captcha",
+  "version": "1.0.0",
+  "description": "captcha server",
+  "main": "index.js",
+  "dependencies": {
+    "md5": "^2.1.0",
+    "babel-core": "^6.7.7",
+    "babel-eslint": "^6.0.4",
+    "babel-plugin-syntax-async-functions": "^6.5.0",
+    "babel-plugin-transform-async-to-module-method": "^6.8.0",
+    "babel-plugin-transform-async-to-generator": "^6.7.4",
+    "babel-plugin-transform-strict-mode": "^6.8.0",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-3": "^6.5.0",
+    "babel-register": "^6.7.2",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^3.0.0",
+    "koa-json": "^2.0.0",
+    "koa-router": "^7.0.1",
+    "lodash": "^4.11.1",
+    "request": "^2.72.0",
+    "uuid": "^2.0.2",
+    "winston": "^2.2.0",
+    "redis":"^2.6.0-2",
+    "co":"^4.6.0",
+    "captchapng":"^0.0.1",
+    "bluebird":"^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "captcha"
+  ],
+  "author": "zfeig",
+  "license": "ISC"
+}
